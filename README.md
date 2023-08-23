@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# React Practice: Simba Slider
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ml1HxBFIO0Y?si=-fpi2XNpvTO7Qk7y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Available Scripts
+This app for learning purposes only. Use specs.txt and the ending project sample images as a guide. All styling assets such as images and icons have been provided for you.
 
-In the project directory, you can run:
+![Screenshot of Simba Slider gallery showing current image of images set with a corresponding circle on the lower half of the image which is filled to indicate to the user the current image of out of the set](/src/demos/screenshots/simba-slider-1.png)
 
-### `npm start`
+![Screenshot of Simba Slider gallery showing current image of images set with a corresponding circle on the lower half of the image which is filled to indicate to the user the current image of out of the set](/src/demos/screenshots/simba-slider-2.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot of Simba Slider gallery showing current image of images set with a corresponding circle on the lower half of the image which is filled to indicate to the user the current image of out of the set](/src/demos/screenshots/simba-slider-3.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+Fork and clone this repository, then run
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install # install dependencies
+npm start # runs the app in dev mode
+```
 
-### `npm run build`
+### Resources
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was inspired by the article, [10 React JS Practice Exercises with solution](https://contactmentor.com/react-js-practice-exercises-solution/?expand_article=1) and references the [image slider](https://www.youtube.com/watch?v=og3wCO98HkQ&t=85s&ab_channel=TheWebSchool.) created by [The Web School.](https://www.youtube.com/@TheWebSchool)

@@ -1,0 +1,3 @@
+Users should be able to:
+View multiple images with next/previous buttons
+Select an image from any index of the list through a click-on option circle

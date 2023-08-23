@@ -1,0 +1,80 @@
+html {
+  background: linear-gradient(#e66465, #9198e5);
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+}
+
+.container-slider {
+  background-color: #f5f5f7;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  height: 500px;
+  margin: auto auto;
+  max-width: 700px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .container-slider {
+    margin: 100px 10px 0;
+  }
+}
+
+.slide {
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: opacity ease-in-out 0.4s;
+  width: 100%;
+}
+
+.slide img {
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
+.active-anim {
+  opacity: 1;
+}
+
+.btn-slide {
+  align-items: center;
+  background: #f1f1f1;
+  border: 1px solid rgba(34, 34, 34, 0.287);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  position: absolute;
+  width: 60px;
+}
+
+.next {
+  right: 20px;
+  top: 50%;
+  transform: translateY(-60%);
+}
+
+.prev {
+  left: 20px;
+  top: 50%;
+  transform: translateY(-60%);
+}
+
+.container-dots {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 10%;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 90%;
+  width: 100%;
+}

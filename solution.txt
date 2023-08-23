@@ -1,0 +1,4 @@
+Steps
+Declare array of objects with id and image url
+For pre/next functionality, we decrement/increment count of the index of active image
+Update active image index with clicked option
