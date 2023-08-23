@@ -13,6 +13,7 @@ This app for learning purposes only. Use specs.txt and the ending project sample
 Fork and clone this repository, then run
 
 ```bash
+cd challenge # cd into the challenge directory to start solving
 npm install # install dependencies
 npm start # runs the app in dev mode
 ```
