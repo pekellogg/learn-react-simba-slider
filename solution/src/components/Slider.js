@@ -52,25 +52,22 @@ function Slider() {
       })}
       <LeftArrow
         className="btn-slide prev"
-        direction="prev"
         onClick={prevSlide}
       />
       <RightArrow
         className="btn-slide next"
-        direction="next"
         onClick={nextSlide}
       />
       <div className="container-dots">
         {Array.from({ length: dataSlider.length }).map((circle, index) => (
           <FilledCircle
-            id="filled-circle"
             key={index}
             onClick={() => fillDot(index + 1)}
-            style={
-              slideIndex === index + 1
-                ? { color: "gray", height: "60%", width: "30%" }
-                : { color: "white", height: "60%", width: "30%" }
-            }
+            style={{
+              color: slideIndex === index + 1 ? "gray" : "white",
+              height: "60%",
+              width: "30%",
+            }}
           />
         ))}
       </div>
