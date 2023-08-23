@@ -63,6 +63,7 @@ function Slider() {
       <div className="container-dots">
         {Array.from({ length: dataSlider.length }).map((circle, index) => (
           <FilledCircle
+            id="filled-circle"
             key={index}
             onClick={() => fillDot(index + 1)}
             style={
