@@ -1,4 +1,4 @@
-# React Practice: Simba Slider
+# React Practice: Image Slider
 
 This app for junior developers or those learning React.js. Use specs.txt, [demo](https://www.youtube.com/watch?v=Ml1HxBFIO0Y&list=PLvY9geuvFZ5eLt3ydDieayked877ykmbi&ab_channel=Peyton), and the completed solution sample images as a guide. All styling assets such as images and icons have been provided for you.
 
